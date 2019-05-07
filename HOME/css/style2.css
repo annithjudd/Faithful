@@ -1,0 +1,283 @@
+@font-face { 
+font-family: fira-mono, monospace;
+font-weight: 400, 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: gill-sans-nova, sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: matrix-ii, serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.container {
+	height: 3400px;
+	width: 100%;
+}
+
+.menu1 {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3.5pt;
+	position: fixed;
+	z-index: 1;
+	top: 6%;
+	left: 82.5%;
+	line-height: 24pt;
+	text-align: left;
+}
+
+.menu2 {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3.5pt;
+	position: fixed;
+	z-index: 1;
+	top: 6%;
+	left: 90%;
+	line-height: 24pt;
+	text-align: left;
+}
+
+.bold {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.top {
+	background: #AFD7D4;
+	height: 624px;
+	width: 100%;
+	position: relative;
+}
+
+.headerimg {
+	width: 569px;
+	height: 248px;
+	left: 29%;
+	top: 25%;
+	position: absolute;
+	cursor: grab;
+}
+
+.headerimg:active {
+	cursor: grabbing;
+}
+
+.second {
+	background: #FFEDA8;
+	height: 453px;
+	width: 100%;
+	position: relative;
+}
+
+.header2 {
+	width: 1087px;
+	height: 105px;
+	position: absolute;
+	left: 12%;
+	top: 10%;
+	animation: header2_move 6s infinite linear;
+}
+
+@keyframes header2_move {
+	0%  {top: 10%; left: -90%;}
+	25% {top: 10%; left: -49%;}
+	50% {top: 10%; left: 12%;}
+	75% {top: 10%; left: 64%;}
+	100% {top: 10%; left: 102%;}
+}
+
+.header2:hover {
+	transition: 4s;
+	transform: translate(-120%, 0%);
+}
+
+.body_copy1 {
+	width: 620px;
+	height: 115px;
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16pt;
+	line-height: 21pt;
+	color: black;
+	position: absolute;
+	text-align: right;
+	left: 42%;
+	top: 45%;
+}
+
+.verse1 {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21pt;
+	color: black;
+	position: absolute;
+	text-align: right;
+	left: 66%;
+	top: 80%;
+}
+
+.third {
+	height: 460px;
+	width: 100%;
+	background: black;
+	position: relative;
+}
+
+.for {
+	width: 100%;
+	position: absolute;
+	top:-6%;
+	filter: blur(5px);
+	transition: filter 0.5s;
+}
+
+.for:hover {
+	filter: blur(0px);
+	transition: filter 0.5s;
+}
+
+.fourth {
+	height: 491px;
+	width: 100%;
+	position: relative;
+	background: #F8A67A;
+}
+
+.header3 {
+	width: 1087px;
+	height: 105px;
+	position: absolute;
+	left: 12%;
+	top: 10%;
+	animation: header3_move 6s infinite linear;
+}
+
+@keyframes header3_move {
+	0%  {top: 10%; left: -90%;}
+	25% {top: 10%; left: -49%;}
+	50% {top: 10%; left: 12%;}
+	75% {top: 10%; left: 64%;}
+	100% {top: 10%; left: 102%;}
+}
+
+.body_copy2 {
+	width: 450px;
+	height: 115px;
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16pt;
+	line-height: 21pt;
+	color: black;
+	position: absolute;
+	text-align: right;
+	left: 53%;
+	top: 45%;
+}
+
+.verse2 {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21pt;
+	color: black;
+	position: absolute;
+	text-align: right;
+	left: 73%;
+	top: 80%;
+}
+
+.fifth {
+	height: 532px;
+	width: 100%;
+	position: relative;
+	background: #AFD7D4;
+}
+
+#linez {
+	width: 1273px;
+	height: 531px;
+	top: -4%;
+	left: 5%;
+	position: absolute;
+	z-index: 1;
+}
+
+.logo {
+	width: 193px;
+	height: 113px;
+	position: absolute;
+	top: 45%;
+	left: 10%; 
+}
+
+.fifth_header {
+font-family: gill-sans-nova, sans-serif;
+font-style: normal;
+font-weight: 900;
+color: white;
+font-size: 65pt;
+position: absolute;
+left: 42%;
+top: 11%;
+}
+
+.body_copy3 {
+width: 20px;
+height: 100px;
+font-family: gill-sans-nova, sans-serif;
+font-style: normal;
+font-weight: 900;
+line-height: 70pt;
+color: white;
+font-size: 40pt;
+position: absolute;
+left: 30%;
+top: 30%;
+text-align: left;
+
+}
+
+.tagline {
+font-family: fira-mono, monospace;
+font-style: normal;
+font-weight: 400;
+color: white;
+font-size: 20pt;
+position: absolute;
+left: 65%;
+top: 90%;
+
+}
+
+.footer {
+	height: 130px;
+	width: 100%;
+	position: relative;
+	background: black;
+}
+
+.footerimg {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 20px;
+	left: 45%;
+}

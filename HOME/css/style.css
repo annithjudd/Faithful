@@ -1,0 +1,440 @@
+@font-face { 
+font-family: fira-mono, monospace;
+font-weight: 400, 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: gill-sans-nova, sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: matrix-ii, serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.container {
+	height: 3400px;
+	width: 100%;
+}
+
+.menu1 {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3.5pt;
+	position: fixed;
+	z-index: 1;
+	top: 6%;
+	left: 82.5%;
+	line-height: 24pt;
+	text-align: left;
+}
+
+.menu2 {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3.5pt;
+	position: fixed;
+	z-index: 1;
+	top: 6%;
+	left: 90%;
+	line-height: 24pt;
+	text-align: left;
+}
+
+.top {
+	background: black;
+	height: 710px;
+	width: 100%;
+	position: relative;
+}
+
+.broken {
+	top: 30%;
+	left: 20%;
+	height: 103.5px;
+	width: 510px;
+	position: absolute;
+	cursor: grab;
+}
+
+.broken:active {
+	cursor: grabbing;
+}
+
+.saved {
+	top: 60%;
+	left: 35%;
+	height: 103.5px;
+	width: 510px;
+	position: absolute;
+	cursor: grab;
+}
+
+.saved:active {
+	cursor: grabbing;
+}
+
+.healing {
+	top: 45%;
+	left: 10%;
+	height: 103.5px;
+	width: 510px;
+	position: absolute;
+	cursor: grab;
+}
+
+.healing:active {
+	cursor: grabbing;
+}
+
+.human {
+	top: 80%;
+	left: 5%;
+	height: 103.5px;
+	width: 510px;
+	position: absolute;
+	cursor: grab;
+}
+
+.human:active {
+	cursor: grabbing;
+}
+
+.flawed {
+	top: 15%;
+	left: 50%;
+	height: 103.5px;
+	width: 510px;
+	position: absolute;
+	cursor: grab;
+}
+
+.flawed:active {
+	cursor: grabbing;
+}
+
+.loved{
+	top: 75%;
+	left: 65%;
+	height: 103.5px;
+	width: 510px;
+	position: absolute;
+	cursor: grab;
+}
+
+.loved:active {
+	cursor: grabbing;
+}
+
+.top_text {
+	color: #F8A67A;
+	font-family: fira-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22pt;
+	left: 50%;
+	top: 84%;
+	position: absolute;
+}
+
+.line {
+	border: 7px solid;
+	width: 640px;
+	border-color: #AFD7D4;
+	position: absolute;
+	left: 50%;
+	top: 90%;
+}
+
+.second {
+	background: #FFEDA8;
+	height: 926px;
+	width: 100%;
+	position: relative;
+}
+
+#second1 {
+	position: absolute;
+	height: 683px;
+	width: 1088px;
+	top: 46.5%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+}
+
+#second2 {
+	position: absolute;
+	height: 683px;
+	width: 1088px;
+	top: 61%;
+	left: 74.5%;
+	transform: translate(-50%, -50%);
+}
+
+.second_header {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+	font-size: 28pt;
+	top: 42px;
+	left: 80px;
+	position: relative;
+}
+
+.mission1 {
+	position: absolute;
+	width: 326px;
+	height: 66px;
+	left: 80px;
+	top: 15%;
+	z-index: 2;
+}
+
+.mission1:hover {
+	transition: 4s;
+	transform: translate(-130%, 0%);
+}
+
+.missiontext1 {
+	position: absolute;
+	width: 687px;
+	height: 316px;
+	left: 3%;
+	top: 25%;
+}
+
+.missiontext2 {
+	position: absolute;
+	width: 687px;
+	height: 316px;
+	left: 50%;
+	top: 55%;
+}
+
+.mission2 {
+	position: absolute;
+	width: 390px;
+	height: 51px;
+	left: 68%;
+	top: 832px;
+}
+
+.third {
+	height: 884px;
+	width: 100%;
+	background: #F8A67A;
+	position: relative;
+}
+
+#issue {
+	position: absolute;
+	height: 1007px;
+	width: 1093px;
+	top: 24%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+#third1 {
+	position: absolute;
+	width: 1084px;
+	height: 708px;
+	top: 4%;
+	left: 13%;
+	transform: (-50%, -50%);
+}
+
+#third2 {
+	position: absolute;
+	width: 1134px;
+	height: 758px;
+	top: -1%;
+	left: 15%;
+	transform: (-50%, -50%);
+}
+
+#third3 {
+	position: absolute;
+	width: 1134px;
+	height: 758px;
+	top: -1.5%;
+	left: 10%;
+	transform: (-50%, -50%);
+}
+
+.bold {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.black {
+	color: black;
+}
+
+.third_header {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+	font-size: 28pt;
+	top: 42px;
+	left: 80px;
+	position: relative;
+}
+
+.third_numbers {
+	width: 1228px;
+	height: 647px;
+	font-family: gill-sans-nova, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	line-height: 190px;
+	color: black;
+	font-size: 230px;
+	top: 10%;
+	left: 10%;
+	position: relative;
+}
+
+.third_copy1 {
+	width: 265px;
+	height: 171px;
+	color: white;
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	text-align: left;
+	line-height: 21px;
+	position: absolute;
+	left: 55%;
+	top: 3%;
+}
+
+.third_copy2 {
+	width: 283px;
+	height: 171px;
+	color: white;
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	text-align: left;
+	line-height: 21px;
+	position: absolute;
+	left: 20%;
+	top: 38%;
+}
+
+.third_copy3 {
+	width: 283px;
+	height: 171px;
+	color: white;
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	text-align: left;
+	line-height: 21px;
+	position: absolute;
+	left: 55%;
+	top: 68%;
+}
+
+#second_number {
+	text-align: right;
+	left: 20px;
+}
+
+.fourth {
+	height: 782px;
+	width: 100%;
+	position: relative;
+	background: #AFD7D4;
+}
+
+.fourth_header {
+	font-family: fira-mono, monospace;
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+	font-size: 28pt;
+	top: 42px;
+	left: 80px;
+	position: relative;
+}
+
+.footer {
+	height: 130px;
+	width: 100%;
+	position: relative;
+	background: black;
+}
+
+.footerimg {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 20px;
+	left: 45%;
+}
+
+.headerimg {
+	height: 110px;
+	width: 522px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+.drawing {
+	position: absolute;
+	height: 1134px;
+	width: 1948px;
+	z-index: 1;
+	top: -69%;
+	left: -33%;	
+}
+
+.fourth1 {
+	width: 360px;
+	height: 454.458px;
+	position: absolute;
+	top: 190px;
+	left: 37%;
+	filter: blur(5px);
+	transition: filter 0.5s;
+	z-index: 2;
+}
+
+.fourth1:hover {
+	filter: blur(0px);
+	transition: filter 0.5s;
+}
+
+
+.fourth2 {
+	width: 560px;
+	height: 632.858px;
+	position: absolute;
+	left: 25%;
+	top: 115px;
+
+}
